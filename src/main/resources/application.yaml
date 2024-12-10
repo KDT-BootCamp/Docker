@@ -1,0 +1,11 @@
+server:
+  port: 7777
+
+
+# DB property Setting 
+# spring:
+#     datasource:
+#         driver-class-name: com.mysql.jdbc.Driver
+#         url: jdbc:mysql://localhost:3306/test_db
+#         username: scott
+#         password: scott
