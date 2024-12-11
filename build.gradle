@@ -25,6 +25,8 @@ repositories {
 
 dependencies {
 
+	implementation 'org.mariadb.jdbc:mariadb-java-client:3.0.7' // 최신 버전 확인 후 사용
+
 	
 	// swagger + spring 3.x 
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
