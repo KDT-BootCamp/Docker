@@ -44,6 +44,6 @@ jobs:
         context: ./
         file: ./Dockerfile
         push: true
-        tags: ${{secrets.DOCKER_USERNAME }}/springApp:ver1.0    
+        tags: ${{secrets.DOCKER_USERNAME }}/devopsapp:ver1.0    
 
   
