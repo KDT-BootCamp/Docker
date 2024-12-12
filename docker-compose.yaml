@@ -3,7 +3,9 @@ version: '3'
 services:
     app:
       container_name: devops-container
-      build: .
+      #build: . 로컬에서 빌드
+      # image 방식은 허브에 있는 이미지 docker desktop에서 가져오기
+      image: seokhun0906/devopsapp:ver1.0
       depends_on:
               - database
       ports:
